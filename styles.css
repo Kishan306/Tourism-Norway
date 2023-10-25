@@ -6,7 +6,7 @@
     font-family: 'Times New Roman', Times, serif;
 }
 body{
-    background-color: #f0f0f0;
+    background-color: #faffe8;
 }
 
 .back-to-top{
@@ -133,21 +133,25 @@ header{
     margin-right: 60px;
     justify-content: space-around;
 }
-div.things-to-do{
+.things-to-do{
     margin: 8px;
     float: left;
-    border: 0.4px solid rgb(145, 145, 145);
+    /* border: 0.4px solid rgb(145, 145, 145); */
+    border: 1px solid;
+    --tw-border-opacity: 1;
+    border-color: rgb(229 231 235);
     border-radius: 15px;
     width: 275px;
     height: 485px;
-    transition: 0.3s ease-in-out;
+    background-color: white;
 }
 .things-to-do:hover{
     /* border-radius: 15px;
     transform: scale(1.1);
     transition: 0.3s ease-in-out; */
     /* box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4); */
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.2);
+    transition: 0.5s ease-in-out;
 }
 div.things-to-do img{
     width: 100%;
@@ -158,6 +162,7 @@ div.things-to-do-desc{
     padding: 15px;
     text-align: center;
     background-color: white;
+    height: 31%;
 }
 .things-to-do h2, .places-to-visit h2{
     font-size: 180%;
@@ -189,11 +194,13 @@ div.things-to-do-desc{
 div.places-to-visit{
     margin: 20px;
     float: left;
-    border: 1px solid rgb(145, 145, 145);
+    /* border: 1px solid rgb(145, 145, 145); */
     border-radius: 15px;
     width: 350px;
     height: 540px;
-    transition: .15s ease-in-out;
+    border: 1px solid;
+    --tw-border-opacity: 1;
+    border-color: rgb(229 231 235);
     
 }
 .places-to-visit:hover{
@@ -202,6 +209,7 @@ div.places-to-visit{
     transition: .15s ease-in-out;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4); */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.2);
+    transition: 0.5s ease-in-out;
 }
 div.places-to-visit img{
     width: 100%;
