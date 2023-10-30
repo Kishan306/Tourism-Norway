@@ -6,7 +6,7 @@
     font-family: 'Times New Roman', Times, serif;
 }
 body{
-    background-color: #faffe8;
+    background-color: #f4f5f0;
 }
 
 .back-to-top{
@@ -62,7 +62,7 @@ header{
     font-size: 120%;
 }
 .hero-image ul li a:hover{
-    background-color: #fff;
+    background-color: #eef1e8;
     color: #000;
 }
 .hero-image{
@@ -143,7 +143,7 @@ header{
     border-radius: 15px;
     width: 275px;
     height: 485px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 .things-to-do:hover{
     /* border-radius: 15px;
@@ -161,7 +161,6 @@ div.things-to-do img{
 div.things-to-do-desc{
     padding: 15px;
     text-align: center;
-    background-color: white;
     height: 31%;
 }
 .things-to-do h2, .places-to-visit h2{
@@ -201,7 +200,7 @@ div.places-to-visit{
     border: 1px solid;
     --tw-border-opacity: 1;
     border-color: rgb(229 231 235);
-    
+    background-color: rgb(255, 255, 255);
 }
 .places-to-visit:hover{
     /* border-radius: 15px;
@@ -219,7 +218,6 @@ div.places-to-visit img{
 div.places-to-visit-desc{
     padding: 15px;
     text-align: center;
-    background-color: white;
 }
 
 /* tips css code starts here */
