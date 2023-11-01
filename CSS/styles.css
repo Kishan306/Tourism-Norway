@@ -382,12 +382,12 @@ label{
     .top-desc{
         display: flex;
         flex-direction: column;
-        height: 66%;
+        height: 70px;
         padding: 33px;
     }
-    .about-norway{
+    /* .about-norway{
         overflow: auto;
-    }
+    } */
     .norway-on-map{
         height: 180px;
         width: 180px;

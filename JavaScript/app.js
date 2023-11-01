@@ -20,7 +20,7 @@ form.addEventListener('submit', e => {
   let score = 0;
   const userAnswers = [form.q1.value, form.q2.value, form.q3.value, form.q4.value];
 
-  //check answers
+  //check answers:
   userAnswers.forEach((answer, index) => {
       if(answer === correctAnswers[index]){
           score += 25;
@@ -31,7 +31,6 @@ form.addEventListener('submit', e => {
   result.querySelector('span').textContent = `${score}%`;
   result.classList.remove('displayResult');
 
-
   let output = 0;
   const timer = setInterval(() => {
       result.querySelector('span').textContent = `${output}%`;
@@ -41,7 +40,7 @@ form.addEventListener('submit', e => {
           output++;
       }
   }, 10);
-  
+
   scrollTo(0,document.body.scrollHeight);
   
 });
