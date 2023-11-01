@@ -1,3 +1,4 @@
+//for scroll-top button:
 window.onscroll = function() {myFunction()};
 
 function myFunction() {
@@ -8,6 +9,7 @@ function myFunction() {
   }
 }
 
+//for quiz:
 const correctAnswers = ['A', 'C', 'B', 'A'];
 const form = document.querySelector('.quiz-form');
 const result = document.querySelector('.result'); 
@@ -25,20 +27,21 @@ form.addEventListener('submit', e => {
       }
   });
 
-  //show result on page
-  
+  //show result on page:
   result.querySelector('span').textContent = `${score}%`;
   result.classList.remove('displayResult');
 
+
   let output = 0;
   const timer = setInterval(() => {
-      result.querySelector('.result').textContent = `${output}%`;
+      result.querySelector('span').textContent = `${output}%`;
       if(output === score){
           clearInterval(timer);
       }else{
           output++;
       }
   }, 10);
+  
   scrollTo(0,document.body.scrollHeight);
   
 });
